@@ -8,7 +8,7 @@ android studio
 java
 
 ## 참고 사이트
-* [LottieAnimationView](https://lottiefiles.com)
+* [LottieAnimationView](https://lottiefiles.com/blog/working-with-lottie/getting-started-with-lottie-animations-in-android-app)
 
 Representative email : cch01024857239@gmail.com
 ---
