@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/cch23/Desktop/MBTI_APP/app/src/main/res/drawable/linear_gradient.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/cch23/Desktop/MBTI_APP/app/src/main/res/drawable/splash.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/cch23/Desktop/MBTI_APP/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/cch23/Desktop/MBTI_APP/app/src/main/res/layout/activity_test_qna.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/cch23/Desktop/MBTI_APP/app/src/main/res/layout/activity_test_start.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/cch23/Desktop/MBTI_APP/app/src/main/res/layout/enfj_0356.xml" value="0.20479416362688901" />
+        <entry key="..\:/Users/cch23/Desktop/MBTI_APP/app/src/main/res/layout/estj_0246.xml" value="0.2046875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
