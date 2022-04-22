@@ -26,5 +26,5 @@ Representative email : cch01024857239@gmail.com
 * Description of inclinations, precautions, and people who fit well
 
 # App Image
-![UI](hhttps://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg) ![UI](https://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg)  
-![UI](hhttps://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg) ![UI](https://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg)  
+![UI](hhttps://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg) ![UI](https://github.com/cch230/MBTI_APP/blob/main/appimage/2.jpg)  
+![UI](hhttps://github.com/cch230/MBTI_APP/blob/main/appimage/3.jpg) ![UI](https://github.com/cch230/MBTI_APP/blob/main/appimage/4.jpg)  
