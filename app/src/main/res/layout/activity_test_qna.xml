@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/final_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/home_coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0sp"
+            android:background="@color/background">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                    android:id="@+id/cancel"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    >
+
+                    <ImageView
+                        android:id="@+id/cancel_1"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_centerInParent="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:src="@drawable/icon_back_back" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/qna"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cancel"
+                    android:layout_marginTop="1dp"
+                    >
+
+
+                    <RelativeLayout
+                        android:id="@+id/r1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:foreground="?attr/selectableItemBackground">
+
+                        <TextView
+                            android:id="@+id/q"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginTop="140dp"
+                            android:text="일정없는 주말에 \n당신은?"
+                            android:textAlignment="center"
+                            android:textColor="@color/coral"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dp">
+
+
+                    <TextView
+                        android:id="@+id/a1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="친구들 만나야지 연락연락!!"
+                        android:textColor="@color/gray_50"
+                        android:textSize="14dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:id="@+id/a2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/a1"
+                        android:layout_marginTop="30dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:text="침대 개꿀? 내가 곧 침대"
+                        android:textSize="14dp"
+                        android:layout_marginBottom="60dp"
+                        android:textColor="@color/gray_50"
+                        android:textAlignment="center"/>
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp"
+                        android:progress="1"
+                        android:layout_below="@+id/a2"
+                        android:progressDrawable="@drawable/progressbar"
+                        android:progressBackgroundTint="@color/background"
+                        />
+                    <TextView
+                        android:id="@+id/Progress_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/progressBar"
+                        android:layout_marginTop="15dp"
+                        android:text="1/12"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray_50"
+                        android:textAlignment="center"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

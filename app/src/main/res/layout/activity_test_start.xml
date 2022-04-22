@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/final_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/home_coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0sp"
+            android:background="@color/background">
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <RelativeLayout
+                    android:id="@+id/r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/test_time"
+                    android:foreground="?attr/selectableItemBackground">
+
+                    <TextView
+                        android:id="@+id/matching"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="150dp"
+                        android:text="명대사로 보는 팩폭 성향테스트"
+                        android:textAlignment="center"
+                        android:textColor="@color/coral"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sub_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/matching"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="나에게 해줄 명대사 팩폭 성향은?!"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray_50"
+                        android:textSize="16dp" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/ani"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/sub_title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="21dp"
+                        android:layout_marginTop="20dp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="animation.json"
+                        app:lottie_loop="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/test_time"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/btnview"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="40dp"
+                    android:text="5~7분 소요 예정...!"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray_50"
+                    android:textSize="14dp" />
+
+                <RelativeLayout
+                    android:id="@+id/btnview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginHorizontal="26dp"
+                    android:layout_marginBottom="50dp">
+
+                    <Button
+                        android:id="@+id/test_next"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/linear_gradient"
+                        android:paddingVertical="2dp"
+                        android:text="시작하기"
+                        android:textColor="@color/gray_50"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

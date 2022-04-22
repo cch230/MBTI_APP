@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/final_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/home_coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0sp"
+            android:background="@color/background">
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <RelativeLayout
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp">
+
+                            <TextView
+                                android:id="@+id/notice"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="밑에 항목 중에 자신에게 맞는 항목을 체크해주세요!"
+                                android:textAlignment="center"
+                                android:textColor="@color/gray_50"
+                                android:textSize="12dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/itsme"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/notice"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="0dp"
+                                android:text="흥 넘치고 긍정적이며 \n낙천적인 에너지의 소유자"
+                                android:textAlignment="center"
+                                android:textColor="@color/coral"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+                            <TableRow
+                                android:id="@+id/tr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/itsme"
+                                android:layout_marginHorizontal="20dp"
+                                android:layout_marginTop="10dp">
+
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="150dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        android:layout_centerHorizontal="true"
+                                        app:cardCornerRadius="10dp">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@drawable/back_ground3"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:scaleType="centerCrop"
+                                            android:src="@drawable/img1356_1" />
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="150dp"
+                                    android:layout_weight="1">
+
+                                    <androidx.cardview.widget.CardView
+
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        android:layout_centerHorizontal="true"
+                                        app:cardCornerRadius="10dp">
+
+                                        <ImageView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:background="@drawable/back_ground3"
+                                            android:foreground="?attr/selectableItemBackground"
+                                            android:scaleType="centerCrop"
+                                            android:src="@drawable/img1356_2" />
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </RelativeLayout>
+                            </TableRow>
+
+                            <TextView
+                                android:id="@+id/s_person"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tr"
+                                android:layout_marginTop="7dp"
+                                android:text="당신과 닮은 성향의 인물"
+                                android:textAlignment="center"
+                                android:textColor="@color/gray_50"
+                                android:textSize="12dp" />
+
+                            <View
+                                android:id="@+id/v"
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginHorizontal="20dp"
+                                android:background="@color/gray_400"
+                                android:layout_marginTop="10dp"
+                                android:layout_below="@+id/s_person" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/mbti"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/title"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginTop="20dp"
+                            android:foreground="?attr/selectableItemBackground">
+
+                            <TextView
+                                android:id="@+id/mbti_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="엄청 조용한데 엠티나 다 같이 놀러가면 춤추고 노래하고 싶어요!"
+                                android:textColor="@color/gray_50" />
+
+                            <TextView
+                                android:id="@+id/mbti_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_1"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="관종이지만 내성적이라 평소엔 티가 나지 않아요!"
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_2"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="감수성이 풍부해서 혼자 생각할 시간이 꼭 필요해요!"
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_3"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="계획적인 거 좋아요! 일기도 안 밀리고 꾸준히 써요."
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_4"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="할 일은 미리미리! 모든 사람에게 다정하고 친절한 인간. 겉바속촉!"
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_5"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="친하고 마음 맞는 사람이랑만 노는거 좋아해요."
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_6"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="섬세하고 예리하지만 가끔씩 나오는 허당미!"
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_7"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="공감을 잘해서 상담 잘 해줘요."
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_8"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="상담해주다가 상대의 기분에 심하게 이입하기도 해요."
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/mbti_10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_9"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:text="남들보다 좀 더 성숙하고 조용한 사람입니다!"
+                                android:textColor="@color/gray_50"
+                                android:textSize="15sp" />
+
+
+                            <RelativeLayout
+                                android:id="@+id/careful"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/mbti_10"
+                                android:layout_marginTop="20dp"
+                                android:foreground="?attr/selectableItemBackground">
+
+                                <TextView
+                                    android:id="@+id/careful_text"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="🎈 조심해주세요!"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/coral"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/mbti_11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/careful_text"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="나랑 친해도 무조건 지켜야 할 선이 존재해요!"
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/mbti_12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mbti_11"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="신중한 완벽주의자라 행동하기 전 시뮬레이션 500번 돌리고 실행해요."
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/mbti_13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mbti_12"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="스트레스를 받으면 자주 아파요.. 위쪽 질병을 달고 살아요.."
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/mbti_14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mbti_13"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="예의없는 사람이 제일 싫어요."
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/mbti_15"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mbti_14"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="나와 가치관이 맞지 않으면 극단적으로 선을 그어버려요."
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/bf"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/careful"
+                                android:layout_marginTop="20dp"
+                                android:foreground="?attr/selectableItemBackground">
+
+                                <TextView
+                                    android:id="@+id/bf_text"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="🤩 이런 사람이 좋아요!"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/coral"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/mbti_16"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/bf_text"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="감정적인 공유가 깊을수록 친해질 수 있어요!"
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/mbti_17"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mbti_16"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="다정다감하고 친절하지만 쉽게 마음을 열어주지 않는 나에요."
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/mbti_18"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mbti_17"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="서로의 관심사가 잘 통하거나 대화가 잘 통하는 사람 좋아요!"
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:id="@+id/mbti_19"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/mbti_18"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:text="이야기를 잘 들어주는 사람이 좋아요!"
+                                    android:textColor="@color/gray_50"
+                                    android:textSize="15sp"
+                                    android:layout_marginBottom="30dp" />
+
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+                </androidx.core.widget.NestedScrollView>
+            </RelativeLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

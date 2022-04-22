@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7676</color>
+    <color name="colorPrimaryDark">#008577</color>
+    <color name="colorAccent">#008577</color>
+
+
+    <color name="splash">#2D0863</color> <!--스플래쉬 배경-->
+    <color name="background">#212121</color> <!--배경-->
+    <color name="history">#FFC542</color> <!--부가적인 박스-->
+    <color name="rowbar">#607076</color>  <!-- 칸 분리시키는 바-->
+    <color name="transparent">#00000000</color> <!--투명 -->
+    <color name="coral">#FF7676</color>
+
+    <!--Disigner Jang's Color -->
+    <color name="background_gray_01">#1B1B1B</color>
+
+    <!--Story Park -->
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
+</resources>

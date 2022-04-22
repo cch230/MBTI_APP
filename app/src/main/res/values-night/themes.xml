@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#C5C5CF</item>
+        <item name="colorAccent">@color/coral</item>
+        <item name="colorControlHighlight">#ffc4c4c4</item>
+
+
+        <!--custom font-family 적용-->
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle</item>
+        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>
+        <item name="android:colorControlNormal">@color/gray_50</item>
+        <item name="android:textColorHint">#ffc4c4c4</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:radioButtonStyle">@style/customRadioButtonFontStyle</item>
+        <item name="android:checkboxStyle">@style/customCheckboxFontStyle</item>
+        <item name="android:fontFamily">@font/font</item>
+
+    </style>
+
+    <style name="CustomRadioTheme" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:colorControlNormal">@color/gray_50</item>
+        <item name="android:colorControlActivated">@color/coral</item>
+        <item name="android:colorControlHighlight">#80FF7676</item>
+        +
+    </style>
+
+    <style name="OSS" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/gray_50</item>
+        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+
+    <style name="tab_text" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <!-- Custom font 적용 -->
+    <style name="customTextViewFontStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="customButtonFontStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="customEditTextFontStyle" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="customRadioButtonFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="customCheckboxFontStyle" parent="@android:style/Widget.DeviceDefault.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/font</item>
+    </style>
+
+    <style name="NewDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Add attributes here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#C5C5CF</item>
+        <item name="colorAccent">@color/coral</item>
+        <item name="textAppearanceButton">@style/AppTextAppearance.Button</item>
+    </style>
+    <!--To fix rendering in preview -->
+    <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:background">@drawable/linear_gradient</item>
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <!--FilledBox일 경우 밑줄 색상, OutlinedBox일 경우 테두리 색상-->
+        <item name="boxStrokeColor">@color/gray_50</item>
+        <item name="backgroundTint">@color/gray_50</item>
+        <item name="android:backgroundTint">@color/gray_50</item>
+        <item name="background">@color/gray_50</item>
+        <!--Counter-->
+        <item name="counterTextAppearance">@style/CounterTextAppearance</item>
+        <!--EditText에 있을때의 Hint-->
+        <item name="android:textColorHint">@color/gray_50</item>
+        <!--상단에 있을때의 Hint-->
+        <item name="hintTextColor">@color/gray_50</item>
+        <item name="hintTextAppearance">@style/HintTextAppearance</item>
+        <!--Helper-->
+        <item name="helperTextTextAppearance">@style/HelperTextAppearance</item>
+        <!--Error-->
+        <item name="errorEnabled">true</item>
+        <item name="colorError">@color/gray_50</item>
+        <item name="errorIconDrawable">@android:color/transparent</item>
+
+        <item name="errorTextAppearance">@style/ErrorTextAppearance</item>
+
+    </style>
+
+    <style name="ErrorTextAppearance">
+        <item name="android:fontFamily">@font/notosanskr_thin</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="HintTextAppearance">
+        <item name="fontFamily">@font/notosanskr_medium</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="HelperTextAppearance">
+        <item name="android:fontFamily">@font/notosanskr_thin</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="CounterTextAppearance">
+        <item name="android:fontFamily">@font/notosanskr_thin</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="TextInputEditTextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:backgroundTint">@color/gray_50</item>
+    </style>
+</resources>

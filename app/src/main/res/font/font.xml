@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="100"
+        android:font = "@font/notosanskr_thin"
+        app:font="@font/notosanskr_thin"
+        app:fontStyle="normal"
+        app:fontWeight="100" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        android:font = "@font/notosanskr_light"
+        app:font="@font/notosanskr_light"
+        app:fontStyle="normal"
+        app:fontWeight="300" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font = "@font/notosanskr_regular"
+        app:font="@font/notosanskr_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="500"
+        android:font = "@font/notosanskr_medium"
+        app:font="@font/notosanskr_medium"
+        app:fontStyle="normal"
+        app:fontWeight="500" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font = "@font/notosanskr_bold"
+        app:font="@font/notosanskr_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="900"
+        android:font = "@font/notosanskr_black"
+        app:font="@font/notosanskr_black"
+        app:fontStyle="normal"
+        app:fontWeight="900" />
+
+</font-family>
