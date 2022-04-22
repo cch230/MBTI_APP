@@ -24,6 +24,18 @@
             app:lottie_loop="false"
             app:lottie_fileName="splash.json"/>
 
+        <TextView
+            android:id="@+id/matching"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="명대사로 보는 \n팩폭 성향테스트"
+            android:textAlignment="center"
+            android:textColor="@color/gray_50"
+            android:textSize="17dp"
+             />
 
     </RelativeLayout>
 
