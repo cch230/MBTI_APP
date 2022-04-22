@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="명대사로 보는 \n팩폭 성향테스트"
+            android:text="유명인으로 보는 \n팩폭 성향테스트"
             android:textAlignment="center"
             android:textColor="@color/gray_50"
             android:textSize="17dp"

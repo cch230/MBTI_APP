@@ -42,7 +42,7 @@
                         android:layout_gravity="center"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginTop="150dp"
-                        android:text="명대사로 보는 팩폭 성향테스트"
+                        android:text="유명인으로 보는 팩폭 성향테스트"
                         android:textAlignment="center"
                         android:textColor="@color/coral"
                         android:textSize="20dp"
@@ -56,7 +56,7 @@
                         android:layout_gravity="center"
                         android:layout_marginHorizontal="20dp"
                         android:layout_marginTop="20dp"
-                        android:text="나에게 해줄 명대사 팩폭 성향은?!"
+                        android:text="나에게 해줄 유명인 팩폭 성향은?!"
                         android:textAlignment="center"
                         android:textColor="@color/gray_50"
                         android:textSize="16dp" />
