@@ -26,5 +26,5 @@ Representative email : cch01024857239@gmail.com
 * Description of inclinations, precautions, and people who fit well
 
 # App Image
-![UI](https://github.com/cch230/Instant-Lottery/blob/main/app_image/KakaoTalk_20210301_183530926.jpg) ![UI](https://github.com/cch230/Instant-Lottery/blob/main/app_image/KakaoTalk_20220113_164416969_02.jpg)  
-![UI](https://github.com/cch230/Instant-Lottery/blob/main/app_image/KakaoTalk_20210301_183530926_01.jpg) ![UI](https://github.com/cch230/Instant-Lottery/blob/main/app_image/KakaoTalk_20220113_164416969_01.jpg)  
+![UI](hhttps://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg) ![UI](https://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg)  
+![UI](hhttps://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg) ![UI](https://github.com/cch230/MBTI_APP/blob/main/appimage/1.jpg)  
